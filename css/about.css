@@ -1,0 +1,19 @@
+article{
+    text-align: center;
+    width: 800px;
+    height: 650px;
+    font-weight: 200;
+    font-size: 25px;
+    /* display: inline-block; */
+}
+.oils{
+    margin: auto;
+    border: 2px solid gray;
+    text-align: center;
+    font-weight: 400px;
+    font-size: 25px;
+    width: 900px;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #FAEDCD;
+}

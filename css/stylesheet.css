@@ -1,0 +1,112 @@
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    min-width: 1000px;
+    position: relative;
+    display: block;
+    background-color: #FDF8EC;
+    
+}
+header {
+    
+    background-color: #E9EDC9;
+    height: 10vh;
+    width: 100%;
+    min-width: 1000px;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 2;
+    text-align: center;
+    display: inline-block;
+}
+header>img {
+    width: 8vh;
+    float: left;
+}
+nav {
+    background-color: #CCD5AE;
+    width: 100%;
+    padding: 10px;
+    height: 25px;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    min-width: 1000px;
+    position: sticky;
+    top: 0px;
+}
+nav>a    {
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 4px;
+    margin: 15px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color:  black;
+    background: #84954B;
+
+    
+}
+.hero {
+    text-align: center;
+    /* display: inline-block; */
+    background-image: url(../img/stock-soap.jpg);
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    display: inline-block;
+    margin-top: 20px;
+}
+footer {
+    background-color: #E9EDC9;
+    /* max-width: 1000px; */
+    height: 6vh;
+    width: 100%;
+    padding: 10px;
+    font-weight: 2;
+    text-align: center;
+    display: inline-block;
+    min-width: 1000px;
+}
+.footinfo {
+  text-align: center;
+}
+article {
+    border: 2px solid gray;
+    width: 35%;
+    background-color: #E9EDC9;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    /* display: inline-block; */
+}
+section {
+    border: 2px solid gray;
+    width: 35%;
+    background-color: #FAEDCD;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    /* display: inline-block; */
+}
+.welcome {
+    border: 2px solid gray;
+    width: 35%;
+    background-color: #E9EDC9;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    /* display: inline-block; */
+}
